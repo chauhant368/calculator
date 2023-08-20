@@ -25,4 +25,9 @@ public class CalculatorServiceImpl implements ICalculatorService{
         return op1 / op2;
     }
 
+    @Override
+    public double sin(double angle){
+        return Math.sin(angle);
+    }
+
 }

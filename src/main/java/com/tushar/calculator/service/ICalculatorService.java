@@ -8,4 +8,6 @@ public interface ICalculatorService {
     long multiply(long op1, long op2);
 
     long divide(long op1, long op2);
+
+    double sin(double angle);
 }
